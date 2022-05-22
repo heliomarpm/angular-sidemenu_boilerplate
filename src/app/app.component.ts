@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 
 import { fadeInAnimation } from './shared/animations';
+import { ThemeService } from './shared/services/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -23,8 +24,9 @@ export class AppComponent {
     "/privacy-policy"
   ];
 
-  constructor(public router: Router) {  }
-
+  constructor(public router: Router, private themeService: ThemeService) {
+    this.themeService.initializeTheme();
+  }
   prepareRoute(outlet: RouterOutlet) {
     return outlet.isActivated ? outlet.activatedRoute.snapshot.url : null;
   }

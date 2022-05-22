@@ -1,0 +1,29 @@
+<header>
+  <div class="left">
+    <!-- <div id="menuAnimation" class="menu-animation" (click)="onToggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div> -->
+
+    <a *ngIf="logo !== ''" class="logo" routerLink="/home" tabindex="-1">
+      <img [src]="logo" width="48" alt="logo">
+    </a>
+
+    <h1>{{ title }}</h1>
+  </div>
+
+
+  <div class="right">
+
+    <app-toggle-theme></app-toggle-theme>
+    
+    <nav>
+      <a href="https://forms.google.com">
+        <i class="fa fa-comment-dots"></i>
+        avaliar
+      </a>
+    </nav>
+
+  </div>
+</header>
