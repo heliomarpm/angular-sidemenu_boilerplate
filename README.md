@@ -1,6 +1,15 @@
-# SidemenuBoilerplate
+# ANGULAR SideMenu Boilerplate - [UNDER CONSTRUCTION]
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+
+## This template contains (WIP)
+  [x] Using scss style sheet.
+  [x] Lazy Load Modules
+  [x] Added angular router with fade-in animation.
+  [ ] Page Layout Component (Header, SideMenu, Main Content)
+  [ ] Switch template light or dark
+  [ ] SideNav animated
+  [ ] Breadcrumbs navigator
 
 ## Development server
 
