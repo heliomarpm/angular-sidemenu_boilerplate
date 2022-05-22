@@ -1,0 +1,27 @@
+@import "assets/styles/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Montserrat", sans-serif;
+  position: relative;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-size: 0.9em;
+  background: #055b9d;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fa,
+.fa-regular,
+.fa-solid {
+  color: #000;
+}
